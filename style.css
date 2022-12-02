@@ -12,8 +12,9 @@ h1{
     color: coral;
 }
 
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 50px;
     
 }
 .half-width{
@@ -22,7 +23,7 @@ section{
 }
 .half-width img{
     width: 80%;
-    margin-top: 40px;
+    
 }
 .btn-link{
     text-decoration: none;
@@ -31,6 +32,7 @@ section{
     font-weight: 700;
     background-image: linear-gradient(orange,tomato);
     color: white ;
+    
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -38,8 +40,40 @@ section{
     
 }
 .drem-big{
-    margin-top: 30px;
+    margin-top: 80px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-bottom: 190px;
+}
+.ex{
+    margin-bottom: 50px;
+}
+.experiences-aria{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiences-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px grey;
+    
+}
+#full-stack-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(224, 95, 9), cyan);
+    border-image-slice: 1;
+}
+#baby-stack-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    margin-top: 150px;
 }
